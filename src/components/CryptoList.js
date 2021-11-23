@@ -42,7 +42,7 @@ function CryptoList() {
   }, []);
 
   return (
-    <div className="coin-app">
+    <div className="coin__app">
       <div className="coins">
         {filteredCoins.map((coin) => {
           return (

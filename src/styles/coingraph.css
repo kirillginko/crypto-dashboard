@@ -1,0 +1,11 @@
+.graph__container{
+    border-left: 1px solid white;
+    padding: 0rem 2rem;
+}
+.graph__container > h2{
+    font-size: 1rem;
+    color: white;
+    font-family: "NeueMachina-Regular";
+    letter-spacing: .3rem;
+    text-transform: uppercase;
+}
