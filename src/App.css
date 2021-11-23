@@ -1,38 +1,123 @@
-.App {
-  text-align: center;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "NeueMachina-Regular"
+    sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1{
+  font-family: "NeueMachina-Regular" ;
+  font-size: 2em;
+  letter-spacing: .3rem;
+}
+ul {
+  list-style-type: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
+  width: 100vw;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background: url("https://res.cloudinary.com/dtps5ugbf/image/upload/v1637610446/sebastian-unrau-sp-p7uuT0tw-unsplash_ldsmk8.jpg")
+    fixed no-repeat;
+  background-size: cover;
+}
+
+.crypto__card {
+  width: 80rem;
+  height: 50rem;
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+  text-align: center;
+  position: relative;
+  z-index: 100;
+  background: inherit;
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+/* .login-form h2 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #3d5245;
+}
+
+.login-form input,
+.login-form button {
+  margin: 6px 0;
+  height: 36px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  padding: 0 14px;
+  color: #3d5245;
+}
+
+.login-form input::placeholder {
+  color: #3d5245;
+}
+
+.login-form button:focus,
+.login-form input:focus {
+  outline: 0;
+}
+
+.login-form button {
+  margin-top: 24px;
+  background-color: rgba(57, 88, 69, 0.4);
   color: white;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.4s;
 }
 
-.App-link {
-  color: #61dafb;
+.login-form button:hover {
+  background-color: rgba(12, 80, 38, 0.67);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.login-form button:focus {
+  outline: 0;
 }
+
+.login-form button::before,
+.login-form button::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 100%;
+  background: rgba(179, 255, 210, 0.5);
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: skewX(-15deg);
+  filter: blur(30px);
+  overflow: hidden;
+  transform: translateX(-100px);
+}
+
+.login-form button::after {
+  width: 40px;
+  background: rgba(179, 255, 210, 0.3);
+  left: 60px;
+  opacity: 0;
+  filter: blur(5px);
+}
+
+.login-form button:hover::before {
+  transition: 1s;
+  transform: translateX(320px);
+  opacity: 0.7;
+}
+
+.login-form button:hover::after {
+  transition: 1s;
+  transform: translateX(320px);
+  opacity: 1;
+} */
